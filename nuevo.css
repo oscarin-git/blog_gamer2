@@ -1,0 +1,128 @@
+/* el css comienza aqui */
+
+*{
+    box-sizing: border-box;
+}
+
+
+.rate__star{
+    width: 30px;
+    height: 30px;
+}
+
+body{
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+}
+
+.header,
+.aside{
+    width: 450px;
+}
+
+.header{
+    position: relative;
+    left: 100px;
+    
+}
+
+.aside{
+    position: absolute;
+    right: 100px;
+    color: gold;
+    top: 50px;
+    
+}
+
+.main--title{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 5px black, 1px 1px 5px black;
+}
+
+.main--subtitle{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 5px black, 1px 1px 5px black;
+    text-align: justify;
+}   
+
+.rate{
+    position: relative;
+    margin-bottom: 1em;
+    top: 50px;
+    
+    border-radius: 10px;
+    background-color: white;
+}
+
+.rate__text{
+    margin-left: 1.5em;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.rate__star{
+    margin-top: 10px;
+    margin-right: .5em;
+    margin-left: 10px;
+}
+
+
+.rate--first{
+    left: -75px;
+}
+
+.rate--second{
+    left: -50px;
+}
+
+.testimonial{
+    position: relative;
+    top: 70px;
+    left: 100px;
+    display: inline-block;
+    width: 340px;
+    margin-right: 50px;
+    padding: 2em 2.5em;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(19, 19, 138);
+}
+
+.user{
+    width: 250px;
+}
+
+.user__img{
+    border-radius: 50%;
+    width: 130px;
+    height: 100px;
+}
+
+.user__img,
+.user__info{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.user__category{
+    color: goldenrod;
+}
+
+.testimonial--second{
+    top: 130px;
+}
+
+.testimonial--third{
+    top: 175px;
+}
+
+.testimonial__text{
+    text-align: justify;
+    text-shadow: 1px 1px 5px black,1px 1px 5px black;
+}
